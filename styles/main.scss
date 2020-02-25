@@ -1,1 +1,37 @@
 @import "./vendor/normalize";
+
+.container{ 
+h1{
+    color: blue;
+}
+p{
+    color: brown;
+}
+ul{
+    li{
+        list-style: none;
+    }
+}
+}
+
+
+
+
+
+
+
+// Medium screens and up
+@media (min-width: 768px) {
+    body {
+      background-color: yellow;
+    }
+  }
+
+@media (min-width: 1024px) {
+    .container {
+      background-color: gray;
+    }
+    body{
+        background-color: red;
+    }
+  }

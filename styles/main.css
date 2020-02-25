@@ -340,4 +340,31 @@ template {
 [hidden] {
   display: none;
 }
+
+.container h1 {
+  color: blue;
+}
+
+.container p {
+  color: brown;
+}
+
+.container ul li {
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    background-color: gray;
+  }
+  body {
+    background-color: red;
+  }
+}
 /*# sourceMappingURL=main.css.map */

@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Spartan|Trade+Winds&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -341,16 +342,47 @@ template {
   display: none;
 }
 
+h1 {
+  font-family: "Trade Winds", sans-serif;
+  color: blue;
+}
+
+p {
+  font-family: "Spartan", cursive;
+}
+
+body {
+  padding: 2em;
+}
+
 .container h1 {
   color: blue;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .container p {
   color: brown;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .container ul li {
   list-style: none;
+}
+
+.btn {
+  background-color: indigo;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #2e004f;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {

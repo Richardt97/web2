@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Spartan|Trade+Winds&display=swap');
 
-$primary-heading-font: "Trade Winds", sans-serif;
+$heading_primary_font: "Trade Winds", sans-serif;
 
-$primary-font: "Spartan", cursive;
+$heading_secondary_font: "Spartan", cursive;
 
 h1{
-    font-family: $primary-heading-font;
-    color: blue;
+    @include font_type($heading_primary_font, blue, 24px)
 }
 
 p{
-    font-family: $primary-font;
+    @include font_type($heading_secondary_font, brown, 34px)
     
 }

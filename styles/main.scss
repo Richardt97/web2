@@ -6,7 +6,9 @@
 body {
   padding: 2em;
 }
-
+  .anime {
+    display: grid;
+  }
 .container{ 
 h1{
     color: $primary_color;
@@ -50,3 +52,4 @@ ul{
         background-color: red;
     }
   }
+

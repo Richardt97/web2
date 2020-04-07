@@ -6,7 +6,9 @@
 body {
   padding: 2em;
 }
-
+  .anime {
+    display: grid;
+  }
 .container{ 
 h1{
     color: $primary_color;
@@ -18,7 +20,7 @@ p{
 }
 ul{
     li{
-        list-style: none;
+        list-style: circle;
     }
 }
 }
@@ -50,3 +52,4 @@ ul{
         background-color: red;
     }
   }
+

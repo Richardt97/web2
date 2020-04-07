@@ -345,14 +345,22 @@ template {
 h1 {
   font-family: "Trade Winds", sans-serif;
   color: blue;
+  font-size: 24px;
 }
 
 p {
   font-family: "Spartan", cursive;
+  color: brown;
+  font-size: 34px;
 }
 
 body {
   padding: 2em;
+}
+
+.anime {
+  display: -ms-grid;
+  display: grid;
 }
 
 .container h1 {
@@ -370,7 +378,7 @@ body {
 }
 
 .container ul li {
-  list-style: none;
+  list-style: circle;
 }
 
 .btn {
